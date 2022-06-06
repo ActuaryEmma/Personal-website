@@ -1,13 +1,7 @@
 body{
     background: black;
-    text-align: center;
-    
-    font-family:Arial, Helvetica, sans-serif;
-}
-h1{
     color: white;
-}
-    
+    font-family:Arial, Helvetica, sans-serif;
 }
 a:link {
     color: white;
@@ -18,66 +12,60 @@ a:visited {
 }
 
 a:hover {
-    color: hotpink;
+    color: blue;
 }
 nav >a {
-    background-color: blue
-    font-size: 17px
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+    
 }
-img {
-    width: 490px;
-    height: 700px;
-    object-fit: cover;
-    object-position: 50% 50%;
-    position: relative;
+nav {
+    text-align: center;
+    font-size: 22px;
 }
 
 .column{
-    /*width:100%;*/
+    width: 100%;
     display:flex;
-    /*align-items:center;
+    align-items:center;
     justify-content:content;
-    content: center;*/
+    content: center;
+    padding: 20px 0px;
+}
     
 
+  
+.image{
+    width: 50%;
+    height: 580px;
   }
-.content.image{
-    width: 500px;
-    height: 700px
+.image img{
+    height: 100%;
+    width: 100%;
+
   }
 .content {
-    background-size: 600px 700px;
-    background: silver;
-    color: black;
+    background-size: cover;
+    background-image: url("images/p2.jpeg");
+    color: white;
     content: center;
     font-size: 30px;
     font-style: italic;
-    width: 500px;
-    height: 700px
-    
+    width: 50%;
+    height: 580px;   
 }
-  
-.images {
-    /*width: 200px;
-    height: 400px;*/
-    object-fit: cover;
-    object-position: 50% 50%;
-    position: relative;
-    object-position: 50% 50%;
-
-    
-}
-.gallery.Gallery {
-    background: white;
+.content h1{
     text-align: center;
+    padding: 50px;
+}
 
-}
-.header {
+
+
+
   
-  /*padding: 10px;*/
-  display: flex;
-  
-}
+
+
 
 
 
